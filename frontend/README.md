@@ -31,11 +31,3 @@ If you are developing a production application, we recommend using TypeScript wi
    ```
    VITE_API_URL=http://localhost:5000
    ```
-
-   
-## Running the Application
-
-   ```bash
-   npm run dev
-   ```
-   The application will open in your default browser at http://localhost:5173

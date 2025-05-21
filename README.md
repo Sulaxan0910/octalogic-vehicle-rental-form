@@ -110,9 +110,9 @@ npm run seed
 2. In a new terminal, start the frontend application:
    ```bash
    cd frontend
-   npm run dev
+   npm start
    ```
-   The application will open in your default browser at http://localhost:5173
+   The application will open in your default browser at http://localhost:3000
 
 ## API Endpoints
 
@@ -120,7 +120,7 @@ The backend provides the following API endpoints:
 
 - `GET /api/vehicle-types?wheels={wheels}` - Get vehicle types based on number of wheels
 - `GET /api/vehicles/{vehicleType}` - Get vehicles for a specific vehicle type
-- `POST /api/book` - Create a new booking
+- `POST /api/bookings` - Create a new booking
 
 ## Dependencies
 
@@ -128,7 +128,7 @@ The backend provides the following API endpoints:
 
 - React
 - Material-UI (@mui/material)
-- Material-UI Date Pickers (@mui/x-date-pickers)
+- Material-UI Date Pickers (@mui/x-date-pickers, @mui/x-date-pickers-pro)
 - date-fns
 - axios
 
