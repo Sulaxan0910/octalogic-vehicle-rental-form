@@ -42,8 +42,8 @@ vehicle-rental-backend/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/vehicle-rental-backend.git
-cd vehicle-rental-backend
+git clone https://github.com/your-username/octalogic-vehicle-rental-form.git
+cd Backend
 ```
 
 ### 2. Install Dependencies
@@ -62,6 +62,7 @@ Create a `.env` file in the root:
 
 ```env
 DATABASE_URL="mysql://root:your_password@localhost:3306/vehicle_rental"
+PORT="5000"
 ```
 
 > Replace `root`, `your_password`, and `vehicle_rental` with your actual MySQL credentials and database name.
